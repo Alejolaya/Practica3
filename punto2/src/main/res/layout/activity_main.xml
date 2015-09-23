@@ -27,7 +27,7 @@
         android:textSize="25dp"
         android:hint="Valor 1"
         android:id="@+id/etvalor1"
-        android:inputType="numberDecimal"
+        android:inputType="numberDecimal|numberSigned"
         />
     <EditText
         android:layout_width="wrap_content"
@@ -35,7 +35,7 @@
         android:textSize="25dp"
        android:hint="Valor 2"
         android:id="@+id/etvalor2"
-        android:inputType="numberDecimal"
+        android:inputType="numberDecimal|numberSigned"
         />
     <RadioGroup
         android:id="@+id/rgOperacion"
