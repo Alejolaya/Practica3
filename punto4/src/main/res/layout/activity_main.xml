@@ -3,7 +3,8 @@
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@color/azure">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -57,7 +58,9 @@
                     android:hint="Lado"
                     android:id="@+id/etLado"
                     android:visibility="visible"
-                    android:inputType="numberDecimal"/>
+                    android:inputType="numberDecimal"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
 
                 <EditText
                     android:layout_width="match_parent"
@@ -65,14 +68,18 @@
                     android:hint="Base"
                     android:inputType="numberDecimal"
                     android:id="@+id/etBase"
-                    android:visibility="invisible"/>
+                    android:visibility="invisible"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
                 <EditText
                     android:inputType="numberDecimal"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:hint="Altura"
                     android:id="@+id/etAltura"
-                    android:visibility="invisible"/>
+                    android:visibility="invisible"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -80,20 +87,27 @@
                     android:id="@+id/etRadio"
                     android:visibility="invisible"
                     android:inputType="numberDecimal"
-                    android:enabled="true"/>
+                    android:enabled="true"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Calcular"
-                    android:layout_gravity="center_horizontal"
-                    android:gravity="center_horizontal"
+                    android:layout_gravity="center"
+                    android:gravity="center"
                     android:inputType="numberDecimal"
-                    android:id="@+id/bCalcular"/>
+                    android:id="@+id/bCalcular"
+                    android:textSize="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:hint="Aqui aparecera el resultado"
-                    android:id="@+id/tvResultado"/>
+                    android:hint="Area"
+                    android:id="@+id/tvResultado"
+                    android:textSize="25dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/black"/>
             </LinearLayout>
 
 

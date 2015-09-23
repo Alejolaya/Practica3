@@ -39,6 +39,10 @@ public class MainActivity extends AppCompatActivity {
                 etA.setVisibility(View.INVISIBLE);
                 etB.setVisibility(View.INVISIBLE);
                 etR.setVisibility(View.INVISIBLE);
+                etA.setText("");
+                etB.setText("");
+                etL.setText("");
+                etR.setText("");
 
             }
 
@@ -50,6 +54,10 @@ public class MainActivity extends AppCompatActivity {
                 etA.setVisibility(View.VISIBLE);
                 etB.setVisibility(View.VISIBLE);
                 etR.setVisibility(View.INVISIBLE);
+                etA.setText("");
+                etB.setText("");
+                etL.setText("");
+                etR.setText("");
 
             }
 
@@ -61,6 +69,10 @@ public class MainActivity extends AppCompatActivity {
                 etA.setVisibility(View.VISIBLE);
                 etB.setVisibility(View.VISIBLE);
                 etR.setVisibility(View.INVISIBLE);
+                etA.setText("");
+                etB.setText("");
+                etL.setText("");
+                etR.setText("");
 
             }
 
@@ -72,6 +84,10 @@ public class MainActivity extends AppCompatActivity {
                 etA.setVisibility(View.INVISIBLE);
                 etB.setVisibility(View.INVISIBLE);
                 etR.setVisibility(View.VISIBLE);
+                etA.setText("");
+                etB.setText("");
+                etL.setText("");
+                etR.setText("");
 
             }
 

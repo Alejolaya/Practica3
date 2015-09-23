@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
                         sexo="Mujer";
                     break;
                 }
-                fecha=String.valueOf(dpdate.getDayOfMonth())+"/"+String.valueOf(dpdate.getMonth())+"/"+String.valueOf(dpdate.getYear());
+                fecha=String.valueOf(dpdate.getDayOfMonth())+"/"+String.valueOf(dpdate.getMonth()+1)+"/"+String.valueOf(dpdate.getYear());
                 lugar=String.valueOf(sCity.getSelectedItem().toString());
                 hobbys="";
                 if(cbH1.isChecked()){
