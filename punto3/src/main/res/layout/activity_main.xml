@@ -1,0 +1,68 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView android:text="Ingresar notas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:layout_gravity="center"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:hint="Quices"
+        android:id="@+id/etQuices"
+        android:inputType="numberDecimal"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:hint="Exposiciones"
+        android:id="@+id/etExpo"
+        android:inputType="numberDecimal"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:hint="Practica de lab"
+        android:id="@+id/etLab"
+        android:inputType="numberDecimal"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:hint="Proyecto Final"
+        android:id="@+id/etProFinal"
+        android:inputType="numberDecimal"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:textSize="30dp"
+        android:id="@+id/bCalcular"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Aqui aparecera el resultado"
+        android:textSize="25dp"
+        android:id="@+id/tvResultado"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
